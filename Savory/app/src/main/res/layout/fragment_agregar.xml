@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ui.agregar.agregarFragment">
+
+
+    <ImageView
+        android:id="@+id/imgFotoAgregar"
+        android:layout_margin="20dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*clic en la imagen "
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edNombreAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/addNombre" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edDescripcionAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/addDescripcion" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/edPrecioAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/addPrecio" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAgregar" />
+</LinearLayout>

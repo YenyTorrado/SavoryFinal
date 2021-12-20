@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Savory</string>
+    <string name="title_activity_app_navegacion">AppNavegacion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Savory</string>
+    <string name="nav_header_subtitle">¡Tu Comida Rápida Preferida!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_close">Cerrar sesion</string>
+    <string name="action_favorite">Favoritos</string>
+    <string name="menu_home">Savory</string>
+    <string name="menu_productos">Productos</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="menu_sucursales">Sucursales</string>
+    <string name="menu_agregar">Agregar</string>
+
+    <string name="eventos">Reserva con nosotros tus eventos mas importantes en nuestro expectacular cafe-bar. ¡Reserva Ahora!</string>
+    <string name="domicilios"> Pide tu comida preferida y te la llevamos a la puerta de tu hogar,¡ llama ya!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="btnAgregar">Agregar</string>
+    <string name="addNombre">Ingrese el nombre</string>
+    <string name="addDescripcion">Ingrese la descripcion</string>
+    <string name="addPrecio">Ingrese el precio</string>
+
+
+</resources>
